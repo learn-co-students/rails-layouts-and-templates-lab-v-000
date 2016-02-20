@@ -9,7 +9,7 @@ RSpec.describe StoreAdminController, type: :controller do
       visit 'admin/home'
 
       expect(response).to render_template("home")
-      expect(response).to render_template("layouts/admin")
+      expect(response).to render_template("layouts/store_admin")
 
       expect(page.find("h1").text).to eq("Flatiron Widgets: Admin")
       expect(page.find("h2").text).to eq("Welcome Flatiron Admin")
