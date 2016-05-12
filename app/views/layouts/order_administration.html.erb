@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Layouts and Templates</title>
+   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+   <%= javascript_include_tag "application" %>
+   <%= csrf_meta_tags %>
+ </head>
+ <body>
+ <h1>Flatiron Widgets: Open Orders</h1>
+ <%= yield %>
+ 
+ </body>
+ </html>
