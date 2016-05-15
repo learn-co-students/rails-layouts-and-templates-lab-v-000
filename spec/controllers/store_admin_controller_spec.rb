@@ -25,7 +25,7 @@ RSpec.describe StoreAdminController, type: :controller do
 
       expect(page.find("h1").text).to eq("Flatiron Widgets: Open Orders")
       expect(page.find("h2").text).to eq("Welcome to Flatiron Open Orders")
-      expect(page.all("ol li").size).to be >= 1
+      expect(page.all("li").size).to be >= 1
     end
   end
 
