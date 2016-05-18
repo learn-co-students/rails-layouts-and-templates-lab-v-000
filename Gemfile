@@ -37,6 +37,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara'
+      gem 'tzinfo-data', platform: [:mingw, :mswin, :x64_mingw]
 end
 
 group :development do
