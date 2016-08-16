@@ -1,5 +1,4 @@
 class StaticController < ApplicationController
-  get 'home' do
-    
+  def home
   end
 end
