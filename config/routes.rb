@@ -4,3 +4,4 @@ Rails.application.routes.draw do
   get 'admin/orders', to: 'store_admin#orders'
   get 'admin/invoice', to: 'store_admin#invoice'
 end
+
