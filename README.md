@@ -7,7 +7,7 @@ Your task is to build an online store! Okay, maybe not a whole online store, but
 ## The Default Layout
 
 1. Make a new controller called `StaticController`.
-2. Create a home view with an `h2` that says "Welcome to Flatiron Widgets" and a new action in `StaticController` called `home`.
+2. Create a home view with an `h2` that says "Welcome To Flatiron Widgets" and a new action in `StaticController` called `home`.
 3. Create a default application layout at the correct location, and add an `h1` to it that says "Flatiron Widgets Store". This is for the main site's welcome bar.
 
 ## Custom Layouts for a Controller
