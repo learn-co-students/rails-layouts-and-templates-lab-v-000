@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170512015526) do
+=======
+ActiveRecord::Schema.define(version: 20170513233638) do
+>>>>>>> 3f5114806205d64a987afd5918fa2158875d345a
 
   create_table "static_controllers", force: :cascade do |t|
     t.datetime "created_at", null: false
