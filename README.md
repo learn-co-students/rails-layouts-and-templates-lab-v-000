@@ -1,4 +1,4 @@
-# Rails Layouts And Templates Lab
+ # Rails Layouts And Templates Lab
 
 ## Objectives
 
