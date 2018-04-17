@@ -1,6 +1,7 @@
-
+# Illustration of this lab is available here:
+# https://i.imgur.com/0XbTEPe.png
 class StoreAdminController < ApplicationController
-  
+
 	layout "admin"
 
 	def home
