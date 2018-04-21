@@ -28,6 +28,5 @@ Your task is to build an online store! Okay, maybe not a whole online store, but
 1. Create a new action in `StoreAdminController` called `invoice`, and insert an `h1` that says "Your Invoice".
 2. This action is assigned the default layout for the controller, `admin`, but we don't want it to use any layout at all (while also not affecting the layouts assigned to other actions in the controller).
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-layouts-and-templates-lab' title='Rails Layouts And Templates Lab'>Rails Layouts And Templates Lab</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-layouts-and-templates-lab'>Layouts And Templates in Rails Lab</a> on Learn.co and start learning to code for free.</p>
