@@ -1,5 +1,5 @@
 # Rails Layouts And Templates Lab
-
+please please work
 ## Objectives
 
 Your task is to build an online store! Okay, maybe not a whole online store, but at least some layouts and controllers for an online store. Not only will you learn how to create a layout and how to get an action to use that layout but also how to override defaults and specify layouts on the action level.
