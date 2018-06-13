@@ -1,4 +1,4 @@
-class StaticController < ActiveRecord::Base
+class StaticController < ApplicationController
 
   def home
   end

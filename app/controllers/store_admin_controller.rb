@@ -1,4 +1,4 @@
-class StoreAdminController < ActiveRecord::Base
+class StoreAdminController < ApplicationController
 
   layout "admin"
 
