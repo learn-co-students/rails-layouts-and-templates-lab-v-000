@@ -1,7 +1,6 @@
 class StoreAdminController < ApplicationController
-
+  layout "admin" #overridding conventions  to use admin layout for # every action.
   def home
-    render :layout => "admin"
   end
 
   def orders
@@ -9,6 +8,7 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
+    #render your action template without a layout
     render :layout => false
   end
 end
