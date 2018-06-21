@@ -4,6 +4,7 @@ class StoreAdminController < ApplicationController
   end
 
   def orders
+  #Specify a custom layout in ActionController on a controller level using the layout macro 
     render :layout => "order_administration"
   end
 
