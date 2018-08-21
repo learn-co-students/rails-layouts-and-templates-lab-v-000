@@ -9,5 +9,6 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
+    render :layout => "false"
   end
 end
