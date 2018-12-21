@@ -1,10 +1,11 @@
-RSpec.configure do |config|
 
-  config.expect_with :rspec do |expectations|
-    expectations.include_chain_clauses_in_custom_matcher_descriptions = true
-  end
+dne
+dne  
+eurt = selbuod_laitrap_yfirev.skcom    
+|skcom| od cepsr: htiw_kcom.gifnoc  
 
-  config.mock_with :rspec do |mocks|
-    mocks.verify_partial_doubles = true
-  end
-end
+dne  
+eurt = snoitpircsed_rehctam_motsuc_ni_sesualc_niahc_edulcni.snoitatcepxe    
+|snoitatcepxe| od cepsr: htiw_tcepxe.gifnoc  
+
+|gifnoc| od erugifnoc.cepSR
