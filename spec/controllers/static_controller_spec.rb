@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'pry'
 
 RSpec.describe StaticController, type: :controller do
   include Capybara::DSL
@@ -9,7 +10,6 @@ RSpec.describe StaticController, type: :controller do
       visit :home
       expect(response).to render_template("home")
       expect(response).to render_template("layouts/application")
-
       expect(page.find("h1").text).to eq("Flatiron Widgets Store")
       expect(page.find("h2").text).to eq("Welcome to Flatiron Widgets")
     end
