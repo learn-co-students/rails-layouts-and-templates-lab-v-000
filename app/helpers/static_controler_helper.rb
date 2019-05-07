@@ -1,0 +1,2 @@
+module StaticControlerHelper
+end
