@@ -5,7 +5,7 @@ RSpec.describe StaticController, type: :controller do
   render_views
 
   describe "GET home" do
-    it "renders the home template with the default layout" do
+    it "renders the home template with the default layouts" do
       visit :home
       expect(response).to render_template("home")
       expect(response).to render_template("layouts/application")

@@ -5,7 +5,7 @@ RSpec.describe StoreAdminController, type: :controller do
   render_views
 
   describe "GET home" do
-    it "renders the home template with admin layout" do
+    it "renders the home template with admin layouts" do
       visit 'admin/home'
 
       expect(response).to render_template("home")
@@ -17,7 +17,7 @@ RSpec.describe StoreAdminController, type: :controller do
   end
 
   describe "GET orders" do
-    it "renders the orders template with order_administration layout" do
+    it "renders the orders template with order_administration layouts" do
       visit 'admin/orders'
 
       expect(response).to render_template("orders")
@@ -30,7 +30,7 @@ RSpec.describe StoreAdminController, type: :controller do
   end
 
   describe "GET invoice" do
-    it "renders the invoice template without any layout" do
+    it "renders the invoice template without any layouts" do
       visit 'admin/invoice'
 
       expect(response).to render_template("invoice")
