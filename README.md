@@ -9,7 +9,7 @@ also how to override defaults and specify layouts on the action level.
 
 ## The Default Layout
 
-1. Make a new controller called `StaticController`.
+1. Make a new controller called `StaticController`. 
 
 2. Create a home view with an `h2` that says "Welcome to Flatiron Widgets" and a
    new action in `StaticController` called `home`.
